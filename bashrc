@@ -14,6 +14,4 @@ clr='\[\033[00m\]'      # Reset
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-#PS1='['${grn}'\u'${ylw}'@'${red}'\h \W'${wht}']'${cyn}'\$ '${clr}''
 PS1=' '${cyn}'\W '${grn}'> '${clr}''
-. "$HOME/.cargo/env"
