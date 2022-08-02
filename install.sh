@@ -35,7 +35,7 @@ cd $path
 
 echo "modifying bashRC"
 cd ~
-rm .bashrc
+sudo rm .bashrc
 cd /
 cd $path
 mv bashrc ~/.bashrc
