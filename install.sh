@@ -10,6 +10,7 @@ cd /
 cd $path
 
 echo "building dwm"
+sudo rm ~/.config/dwm -r
 mv -t ~/.config dwm/
 cd ~/.config/dwm
 sudo make clean install
@@ -17,6 +18,7 @@ cd /
 cd $path
 
 echo "building dmenu"
+sudo rm ~/.config/dwmenu -r
 mv -t ~/.config dmenu/
 cd ~/.config/dmenu
 sudo make clean install
@@ -24,6 +26,7 @@ cd /
 cd $path
 
 echo "building dwmblocks"
+sudo rm ~/.config/dwmblocks -r
 mv -t ~/.config dwmblocks/
 cd ~/.config/dwmblocks
 sudo make clean install
