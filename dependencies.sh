@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "feh vim make gcc pipewire-pulse xorg acpilight alacritty nmcli"
+echo "feh vim make gcc pulseaudio xorg acpilight alacritty nmcli"
