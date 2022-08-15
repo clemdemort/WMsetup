@@ -14,4 +14,4 @@ clr='\[\033[00m\]'      # Reset
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-PS1=' '${cyn}'\W '${grn}'> '${clr}''
+PS1=' '${blu}'\W '${grn}'> '${clr}''
